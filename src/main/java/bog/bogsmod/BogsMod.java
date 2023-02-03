@@ -26,9 +26,7 @@ public class BogsMod implements ModInitializer {
     static int bogsModIds = 700;
 
     public static boolean probability(Random rand, double percent) {
-        boolean probability = percent > 0 && rand.nextInt(100) <= percent;
-        //LOGGER.info("Probability: " + probability);
-        return probability;
+        return percent > 0 && rand.nextInt(100) <= percent;
     }
 
     // - { CREATE NEW BLOCKS } -
