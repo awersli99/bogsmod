@@ -1,0 +1,6 @@
+tile.bogsmod.FlintBlock.name=Flint Block
+tile.bogsmod.FlintBlock.desc=A block made from flint
+tile.bogsmod.NetherIronOre.name=Nether Iron Ore
+tile.bogsmod.NetherIronOre.desc=A dangerous and rewarding form of iron ore
+
+item.bogsmod.SteelBoat.name=Steel Boat
