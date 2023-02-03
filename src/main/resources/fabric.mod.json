@@ -4,9 +4,9 @@
   "version": "${version}",
 
   "name": "Bog's Mod",
-  "description": "Random shit made by bog",
+  "description": "Random features",
   "authors": [
-    "Bog"
+    "awersli99"
   ],
   "contact": {
     "homepage": "",
