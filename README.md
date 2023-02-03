@@ -1,32 +1,12 @@
-# Minimal Mod
+# Bog's Mod 
 
-Babric example mod, without the examples.
+Small [Babric](https://github.com/babric) mod for use with the [Better Than Adventure](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/3106066-better-than-adventure-for-beta-1-7-3-timely) mod for Minecraft Beta 1.7.3 with a few features.
 
-## Prerequisites
-- JDK for Java 17 ([Eclipse Temurin](https://adoptium.net/temurin/releases/) recommended)
-- IntelliJ IDEA
-- Minecraft Development plugin (Optional, but highly recommended)
+## Features
 
-## Setup instructions
+- Steel boat
+- Nether Iron
+- Flint blocks
 
-1. Download or clone this repository and put it somewhere.
-```
-git clone https://github.com/Turnip-Labs/bta-minimal-mod.git
-```
+*Will release compiled jars when more features are complete*
 
-2. Import the project in IntelliJ IDEA, close it and open it again.
-
-
-3. Create a new run configuration by going in `Run > Edit Configurations`  
-   Then click on the plus icon and select Gradle. In the `Tasks and Arguments` field enter `build`  
-   Running it will build your finished jar files and put them in `build/libs/`
-
-
-4. Open `File > Settings` and head to `Build, Execution, Development > Build Tools > Gradle`  
-   Change `Build and run using` and `Run tests using` to `IntelliJ IDEA`
-
-
-5. Open `File > Project Structure`, select `Project` and set `Compiler output` to your project's path/out.
-
-
-6. Done! Now all that's left is to change every mention of `examplemod` to your own mod id. Happy modding!
