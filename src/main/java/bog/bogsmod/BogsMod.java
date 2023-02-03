@@ -36,7 +36,7 @@ public class BogsMod implements ModInitializer {
     public static final Block netherIronOre = BlockHelper.createBlock(MOD_ID, new BlockNetherIronOre(bogsModIds+2), "NetherIronOre", "NetherIronOre.png", Block.soundStoneFootstep, 4f, 6f, 0f);
 
     // - { CREATE NEW ITEMS } -
-    public static final Item steelBoat = ItemHelper.createItem(MOD_ID, new ItemSteelBoat(bogsModIds+3), "SteelBoat", "steelboatitem.png");
+    public static final Item steelBoat = ItemHelper.createItem(MOD_ID, new ItemSteelBoat(bogsModIds+3), "SteelBoat", "SteelBoat.png");
 
     // - { ORE GENERATORS } -
     public static final WorldGenerator netherIronOreGen = new WorldGenMinable(netherIronOre.blockID, 10, false);

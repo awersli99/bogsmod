@@ -3,7 +3,6 @@ package bog.bogsmod.render;
 
 import bog.bogsmod.entity.EntitySteelBoat;
 import net.minecraft.src.Entity;
-import net.minecraft.src.EntityBoat;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.ModelBase;
 import net.minecraft.src.ModelBoat;
@@ -34,7 +33,7 @@ public class RenderSteelBoat extends Render {
         float f4 = 0.75f;
         GL11.glScalef(f4, f4, f4);
         GL11.glScalef(1.0f / f4, 1.0f / f4, 1.0f / f4);
-        this.loadTexture("/assets/bogsmod/item/steelboat.png");
+        this.loadTexture("/assets/bogsmod/model/SteelBoatModel.png");
         GL11.glScalef(-1.0f, -1.0f, 1.0f);
         this.modelBoat.render(0.0f, 0.0f, -0.1f, 0.0f, 0.0f, 0.0625f);
         GL11.glPopMatrix();
